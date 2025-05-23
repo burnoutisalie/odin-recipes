@@ -1,6 +1,6 @@
 # Project: Recipes
 ##### *Foundations Course*
-**Live Demo:** [Visit the website](https://github.com/burnoutisalie/odin-recipes)
+**Live Demo:** [Visit the website](https://burnoutisalie.github.io/odin-recipes)
 
 Basic recipe website to test the HTML knowledge I have acquired so far. It will consist of a main index page which will have links to a few recipe pages.
 
