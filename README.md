@@ -2,7 +2,7 @@
 ##### *Foundations Course*
 **Live Demo:** [Visit the website](https://github.com/burnoutisalie/odin-recipes)
 
-Basic recipe website to test the HTML knowledge I have acquired so far. It will consist of a main index page which will have links to a few recipes.
+Basic recipe website to test the HTML knowledge I have acquired so far. It will consist of a main index page which will have links to a few recipe pages.
 
 You can find my favorite recipes for such meals, as Uzbek pilaf, burger, and egg fried rice.
 
