@@ -191,8 +191,12 @@ a:hover {
 	========================================
 */
 
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .nav li {
-  display: inline-block;
   margin: 0 15px;
 }
 .nav li:last-child {
@@ -243,7 +247,7 @@ a:hover {
 .recipe-page-hero {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	/* align-items: center; */
+	margin-top: 30px;
 	margin-bottom: 25px;
 }
 .recipe-main-img {
