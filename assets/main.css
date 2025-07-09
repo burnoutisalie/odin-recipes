@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+	Custom styles
+	========================================
+*/
+
+body {
+  background: #F4F1E0;
+  color: #0b0e1f;
+  font: 400 16px/22px "Montserrat", Verdana, sans-serif;
+}
+
+/*
+  ========================================
+	Grid
+	========================================
+*/
+
+html {
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+					box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+		 -moz-box-sizing: inherit;
+		 			box-sizing: inherit;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-auto-rows: minmax(300px, auto);
+	gap: 25px 50px;
+}
+
+/*
+	========================================
+	Typography
+	========================================
+*/
+
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+strong {
+	font-weight: 700;
+}
+cite,
+em {
+	font-style: italic;
+}
+
+/*
+  ========================================
+	Links
+	========================================
+*/
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  color: #1d4ed8;
+}
+.cards a {
+	color: inherit;
+}
+.cards a:hover {
+	color: #3c4ca9;
+}
+
+/*
+	========================================
+	Primary header
+	========================================
+*/
+
+.primary-header {
+  padding: 10px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	position: sticky;
+	top: 0;
+	background: #F4F1E0;
+}
+.logo img {
+  height: 60px;
+  width: auto;
+}
+.primary-header nav {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/*
+	========================================
+	Primary footer
+	========================================
+*/
+
+.primary-footer {
+	padding: 50px 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	border-top: 1px solid #0b0e1f; 
+}
+.primary-footer nav {
+	font-weight: 700;
+}
+
+/*
+	========================================
+	Navigation
+	========================================
+*/
+
+.nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+	========================================
+	Home
+	========================================
+*/
+
+.opener {
+	margin-bottom: 25px;
+	padding: 20px;
+}
+.opener h2 {
+	text-align: center;
+}
+.card {
+	padding: 20px;
+	margin-bottom: 25px;
+}
+.card h5 {
+	margin-bottom: 25px;
+}
+.card a {
+	display: block;
+	margin-bottom: 25px;
+}
+.card-image {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 25px;
+}
+.card-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+
+.ingredients {
+	list-style: disc;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
